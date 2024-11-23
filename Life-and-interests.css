@@ -84,27 +84,32 @@
 
 @media (max-width: 991px) {
   .u-section-1 .u-sheet-1 {
-    min-height: 1213px;
+    min-height: 934px;
   }
 
   .u-section-1 .u-shape-1 {
     width: 720px;
+    margin-top: 42px;
+    margin-left: -20px;
   }
 
   .u-section-1 .u-image-1 {
     width: 525px;
     height: 525px;
+    margin-top: -856px;
+    margin-right: -20px;
   }
 
   .u-section-1 .u-shape-2 {
+    margin-top: -636px;
     margin-right: 31px;
   }
 
   .u-section-1 .u-group-1 {
     min-height: 511px;
-    margin-top: -166px;
-    margin-right: 0;
+    margin-top: 290px;
     margin-left: auto;
+    margin-bottom: 0;
   }
 }
 
@@ -116,6 +121,7 @@
   .u-section-1 .u-shape-1 {
     width: 509px;
     height: 509px;
+    margin-left: 0;
   }
 
   .u-section-1 .u-image-1 {
@@ -135,7 +141,6 @@
     min-height: 475px;
     width: 510px;
     margin-top: -115px;
-    margin-right: auto;
     margin-left: 0;
   }
 
@@ -171,7 +176,6 @@
 
   .u-section-1 .u-group-1 {
     margin-top: 698px;
-    margin-bottom: 0;
     margin-right: initial;
     margin-left: initial;
     width: auto;
@@ -315,6 +319,8 @@
 
 .u-section-2 .u-text-7 {
   transform: translateX(0px) translateY(0px) scale(1) rotate(0deg);
+  font-weight: 700;
+  font-size: 1.25rem;
   margin: 33px 0 0;
 }
 
@@ -348,6 +354,8 @@
 
 .u-section-2 .u-text-9 {
   transform: translateX(0px) translateY(0px) scale(1) rotate(0deg);
+  font-weight: 700;
+  font-size: 1.25rem;
   margin: 33px 0 0;
 }
 
@@ -381,6 +389,8 @@
 
 .u-section-2 .u-text-11 {
   transform: translateX(0px) translateY(0px) scale(1) rotate(0deg);
+  font-weight: 700;
+  font-size: 1.25rem;
   margin: 33px 0 0;
 }
 
@@ -461,8 +471,6 @@
 
   .u-section-2 .u-text-7 {
     transition-duration: 0.5s;
-    font-weight: 700;
-    font-size: 1.25rem;
   }
 
   .u-section-2 .u-image-4 {
@@ -471,8 +479,6 @@
 
   .u-section-2 .u-text-9 {
     transition-duration: 0.5s;
-    font-weight: 700;
-    font-size: 1.25rem;
   }
 
   .u-section-2 .u-image-5 {
@@ -481,8 +487,6 @@
 
   .u-section-2 .u-text-11 {
     transition-duration: 0.5s;
-    font-weight: 700;
-    font-size: 1.25rem;
   }
 
   .u-section-2 .u-image-6 {
@@ -560,12 +564,27 @@
     height: 426px;
   }
 
+  .u-section-2 .u-text-7 {
+    font-weight: 700;
+    font-size: 1.25rem;
+  }
+
   .u-section-2 .u-image-4 {
     height: 426px;
   }
 
+  .u-section-2 .u-text-9 {
+    font-weight: 700;
+    font-size: 1.25rem;
+  }
+
   .u-section-2 .u-image-5 {
     height: 426px;
+  }
+
+  .u-section-2 .u-text-11 {
+    font-weight: 700;
+    font-size: 1.25rem;
   }
 
   .u-section-2 .u-image-6 {
