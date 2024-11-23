@@ -315,8 +315,6 @@
 
 .u-section-2 .u-text-7 {
   transform: translateX(0px) translateY(0px) scale(1) rotate(0deg);
-  font-weight: 700;
-  font-size: 1.25rem;
   margin: 33px 0 0;
 }
 
@@ -350,8 +348,6 @@
 
 .u-section-2 .u-text-9 {
   transform: translateX(0px) translateY(0px) scale(1) rotate(0deg);
-  font-weight: 700;
-  font-size: 1.25rem;
   margin: 33px 0 0;
 }
 
@@ -385,8 +381,6 @@
 
 .u-section-2 .u-text-11 {
   transform: translateX(0px) translateY(0px) scale(1) rotate(0deg);
-  font-weight: 700;
-  font-size: 1.25rem;
   margin: 33px 0 0;
 }
 
@@ -435,7 +429,6 @@
 @media (max-width: 1199px) {
   .u-section-2 .u-text-2 {
     margin-top: 20px;
-    margin-bottom: initial;
   }
 
   .u-section-2 .u-list-1 {
@@ -468,6 +461,8 @@
 
   .u-section-2 .u-text-7 {
     transition-duration: 0.5s;
+    font-weight: 700;
+    font-size: 1.25rem;
   }
 
   .u-section-2 .u-image-4 {
@@ -476,6 +471,8 @@
 
   .u-section-2 .u-text-9 {
     transition-duration: 0.5s;
+    font-weight: 700;
+    font-size: 1.25rem;
   }
 
   .u-section-2 .u-image-5 {
@@ -484,6 +481,8 @@
 
   .u-section-2 .u-text-11 {
     transition-duration: 0.5s;
+    font-weight: 700;
+    font-size: 1.25rem;
   }
 
   .u-section-2 .u-image-6 {
@@ -498,7 +497,6 @@
 @media (max-width: 991px) {
   .u-section-2 .u-text-2 {
     margin-top: 473px;
-    margin-bottom: 0;
   }
 
   .u-section-2 .u-list-1 {
