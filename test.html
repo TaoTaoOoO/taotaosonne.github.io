@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frontend Interaction</title>
+</head>
+<body>
+    <h1>Frontend to Backend Interaction</h1>
+    <button id="getDataBtn">Get Data</button>
+    <button id="postDataBtn">Send Data</button>
+    <div id="response"></div>
+
+    <script>
+        const backendUrl = 'http://127.0.0.1:5000/api/data';
+
+        // GET 请求示例
+        document.getElementById('getDataBtn').addEventListener('click', () => {
+            fetch(backendUrl)
+                .then(response => response.json())
+                .then(data => {
+                    document.getElementById('response').innerText = JSON.stringify(data, null, 2);
+                })
+                .catch(error => console.error('Error:', error));
+        });
+
+        // POST 请求示例
+        document.getElementById('postDataBtn').addEventListener('click', () => {
+            const postData = {
+                name: "Alice"
+            };
+
+            fetch(backendUrl, {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify(postData)
+            })
+                .then(response => response.json())
+                .then(data => {
+                    document.getElementById('response').innerText = JSON.stringify(data, null, 2);
+                })
+                .catch(error => console.error('Error:', error));
+        });
+    </script>
+</body>
+</html>
