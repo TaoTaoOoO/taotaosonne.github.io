@@ -18,8 +18,14 @@
         document.getElementById('getDataBtn').addEventListener('click', () => {
             fetch(backendUrl)
                 .then(response => response.json())
+
                 .then(data => {
-                    document.getElementById('response').innerText = JSON.stringify(data, null, 2);
+                    let sum = 0;  // 初始化总和为 0
+        // 假设 data 是一个数组，遍历数组求和
+                    for (let i = 0; i < data.length; i++) {
+                        sum += data[i];  // 累加数组中的每个元素
+                    }
+                    document.getElementById('response').innerText = sum;
                 })
                 .catch(error => console.error('Error:', error));
         });
